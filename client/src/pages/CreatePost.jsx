@@ -100,7 +100,7 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
-            placeholder="Bavya"
+            placeholder="Enter your name"
             value={form.name}
             handleChange={handleChange}
           />
@@ -109,7 +109,7 @@ const CreatePost = () => {
             type="text"
             name="prompt"
             value={form.prompt}
-            placeholder="salman"
+            placeholder="Enter prompt"
             handleChange={handleChange}
             isSurpriseMe
             handleSurpriseMe={handleSurpriseMe}
