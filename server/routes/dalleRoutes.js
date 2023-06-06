@@ -30,7 +30,7 @@ router.route("/").post( async (req, res) => {
     } catch(error) {
 
         res.status(500).json({message: error}); 
-        console.log(`Error: ${err}`); 
+        console.log(`Error: ${error}`); 
 
     }
 
